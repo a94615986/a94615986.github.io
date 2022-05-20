@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://a94615986.github.io</id>
+    <title>Gridea</title>
+    <updated>2022-05-20T04:05:37.028Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://a94615986.github.io"/>
+    <link rel="self" href="https://a94615986.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://a94615986.github.io/images/avatar.png</logo>
+    <icon>https://a94615986.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[什么是中继/中转节点/BGP中转/IPLC专线机场？]]></title>
+        <id>https://a94615986.github.io/post/shi-me-shi-zhong-ji-zhong-zhuan-jie-dian-bgp-zhong-zhuan-iplc-zhuan-xian-ji-chang/</id>
+        <link href="https://a94615986.github.io/post/shi-me-shi-zhong-ji-zhong-zhuan-jie-dian-bgp-zhong-zhuan-iplc-zhuan-xian-ji-chang/">
+        </link>
+        <updated>2022-05-20T03:59:52.000Z</updated>
+        <content type="html"><![CDATA[<p>什么是直连？<br>
+用户直接通过宽带运营商走国内公网，再经过墙，再经过QoS，民用宽带的优先级较低容易限速，再通过国际出口公网到达国外没被墙的服务器联网，比如访问google。<img src="https://a94615986.github.io/post-images/1653019324857.png" alt="" loading="lazy"><br>
+什么是国内中转？<br>
+用户直接通过宽带运营商走国内公网，到达国内中转服务器，中转服务器会优化连接国外的线路，以加密方式过墙，这样不容易被墙识别，QoS优先级比直连更高，再走国际公网出口到达国外中转服务器或机场服务器再访问互联网。中转的优势可以优化访问国际的线路以及加密技术，不容易被墙，但价格比直连贵。<img src="https://a94615986.github.io/post-images/1653019368658.png" alt="" loading="lazy"><br>
+什么是BGP线路？<br>
+BGP（边界网关协议）也是中转服务器，用户通过宽带运营商连接到国内中转服务器BGP，BGP服务器通过优化选择一条较优的线路和用户连接，再经过隧道加密过墙，提升过墙能力，再到国外的中转服务器，再到机场服务器再访问互联网。BGP中转的优势是可以优化接入点网络，再以遂道加密，不容易被墙，但价格比直连贵。<img src="https://a94615986.github.io/post-images/1653019405734.png" alt="" loading="lazy"><br>
+什么是专线？IPLC和IEPL专线。<br>
+用户通过宽带运营商连接到国内的BGP中转服务器，再走国际出口专线，再到海外中转服务器，再到机场服务器访问互联网。IPLC和IEPL国际专线优点是不过防火墙的，所以不用担心被墙，延迟更低，速度更快，但价格比较贵。</p>
+<figure data-type="image" tabindex="1"><img src="https://a94615986.github.io/post-images/1653019426534.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[半亩方塘BmFt]]></title>
+        <id>https://a94615986.github.io/post/BmFt2/</id>
+        <link href="https://a94615986.github.io/post/BmFt2/">
+        </link>
+        <updated>2022-05-19T04:51:53.000Z</updated>
+        <content type="html"><![CDATA[<p>天青色等烟雨🌴<br>
+科学上网｜资源共享｜吹水吃瓜<br>
+<a href="https://t.me/BmFt2">半亩方塘BmFt</a></p>
+]]></content>
+    </entry>
+</feed>
